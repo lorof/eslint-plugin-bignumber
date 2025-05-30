@@ -5,9 +5,10 @@
   "author": "Nando Vieira",
   "description": "ESlint rule to enforce BigNumber instead of parseFloat",
   "asdf": "https://github.com/fnando/eslint-plugin-bignumber",
-  "main": "lib/index.js",
+  "main": "lib/index.mjs",
+  "type": "module",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.mjs"
   },
   "keywords": [
     "bignumber",
@@ -16,6 +17,6 @@
     "eslint-plugin"
   ],
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "eslint": "^9.27.0"
   }
 }
